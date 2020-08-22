@@ -17,5 +17,5 @@ def recurgcd(a,b):
     elif low==1:
         return 1
     else:
-        return recurgcd(low,high%low)
-print(recurgcd(12, 14))
+        return recurgcd(low , high%low)
+print(recurgcd(12, 16))
